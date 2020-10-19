@@ -1,0 +1,28 @@
+개인 정리용
+
+//전처리기 매크로
+#inclued <header_file.h>                             //헤더파일 연결
+
+#define MAX 100                                      //매크로: 100을 MAX로 정의
+#define ADD_NUM(x,y)
+#define FUNCION_NAME(x) std::cout<<#x;               //매크로: std::cout<<#x를 FUNCION_NAME(x)로 정의
+
+#undef FUNCION_NAME                                  //정의 [FUNCION_NAME] 해제
+
+//자료형
+//const 자료형 상수이름 = 매개변수;
+const int con1 = 1;                                  //con1에 int형 상수 1을 선언 및 초기화
+const char con2 = abc;                               //con2에 char형 상수 a를 선언 및 초기화
+
+//제어분기
+//switch(매개변수)
+{
+    case 값1 :
+    실행문1;
+    break;
+    case 값2 :
+    실행문2;
+    break;
+    default :
+    default시 실행문
+}
